@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /* 
     Created on : 2019-03-23, 16:11:52
-    Author     : bialk
+    Author     : bialka104b@interia.pl
 */
 
 
@@ -1605,10 +1605,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     div {
-      height: 80%;
       #carouselExampleIndicators {
         .carousel-inner {
-          height:100%;
           width:100%;
           padding-top:0;
           .carousel-item {
@@ -1625,7 +1623,7 @@ header {
                 margin-top:35%;
               }
               @media (min-width:750px) {
-                margin-top:20%;
+                margin-top:10%;
               }
               h3 {
                 font-family: Pacifico, cursive;
@@ -1657,9 +1655,9 @@ header {
           span {
             color:black;
           }
-          .carousel-control-next, .carousel-control-prev {
-            background:black;
-          }
+        }
+        #next, #prev {
+          top: 100%;
         }
       }
     }
