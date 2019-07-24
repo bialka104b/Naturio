@@ -6,7 +6,7 @@ and open the template in the editor.
 */
 /* 
     Created on : 2019-03-23, 16:11:52
-    Author     : bialk
+    Author     : bialka104b@interia.pl
 */
 body {
   background: white;
@@ -2003,41 +2003,78 @@ header .title {
   background-size: cover;
 }
 
-#main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner {
+@media (min-width: 1300px) {
+  #main #our-clients-testimonials {
+    height: auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-indicators {
+    bottom: 100px;
+  }
+}
+
+#main #our-clients-testimonials #carouselExampleIndicators .carousel-inner {
   width: 100%;
   padding-top: 0;
 }
 
-#main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item {
+@media (min-width: 1300px) {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner {
+    height: 700px;
+  }
+}
+
+#main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item {
   text-align: center;
   height: 80%;
   color: white;
   padding-top: 15%;
 }
 
-#main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
+@media (min-width: 1300px) {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1500px) {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item {
+    height: 100%;
+    padding-top: 10%;
+  }
+}
+
+#main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
   height: auto;
 }
 
 @media (min-width: 0px) {
-  #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
     margin-top: 40%;
   }
 }
 
 @media (min-width: 468px) {
-  #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
-    margin-top: 35%;
-  }
-}
-
-@media (min-width: 750px) {
-  #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
     margin-top: 10%;
   }
 }
 
-#main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img h3 {
+@media (min-width: 750px) {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1300px) {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
+    margin-top: 0;
+  }
+}
+
+#main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img h3 {
   font-family: Pacifico, cursive;
   font-style: normal;
   font-weight: 400;
@@ -2045,41 +2082,53 @@ header .title {
   line-height: 1.344;
 }
 
-#main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img img {
+#main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
 }
 
-#main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
+#main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
   margin-top: 70px;
   padding-left: 10%;
   padding-right: 10%;
 }
 
 @media (max-width: 467px) {
-  #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
     margin-top: 20px;
   }
 }
 
 @media (max-width: 769px) {
-  #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
     margin-top: 40px;
   }
 }
 
-#main #our-clients-testimonials div #carouselExampleIndicators a span {
+@media (min-width: 1300px) {
+  #main #our-clients-testimonials #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
+    margin-top: 30px;
+  }
+}
+
+#main #our-clients-testimonials #carouselExampleIndicators a span {
   color: black;
 }
 
-#main #our-clients-testimonials div #carouselExampleIndicators #next, #main #our-clients-testimonials div #carouselExampleIndicators #prev {
-  top: 100%;
+#main #our-clients-testimonials #carouselExampleIndicators #next, #main #our-clients-testimonials #carouselExampleIndicators #prev {
+  top: 20%;
 }
 
 #main #subscribe-newsletter {
   height: auto;
   padding-bottom: 50px;
+}
+
+@media (max-width: 1000px) {
+  #main #subscribe-newsletter {
+    padding-bottom: 0;
+  }
 }
 
 #main #subscribe-newsletter .container {
@@ -2101,14 +2150,13 @@ header .title {
 }
 
 #main #subscribe-newsletter .container .subscribe-newsletter-input-btn {
-  margin: auto 0 auto -10%;
-  height: 50px;
+  margin: auto 0 auto 0;
+  height: auto;
 }
 
 @media (max-width: 1000px) {
   #main #subscribe-newsletter .container .subscribe-newsletter-input-btn {
     text-align: left;
-    margin: auto 0;
   }
 }
 
@@ -2159,6 +2207,13 @@ header .title {
   position: absolute;
   text-align: center;
   border: 0;
+  margin-left: -60px;
+}
+
+@media (max-width: 1000px) {
+  #main #subscribe-newsletter .container .subscribe-newsletter-input-btn .subscribe-btn button[type="submit"] {
+    margin-left: 0;
+  }
 }
 
 #main #subscribe-newsletter .container .subscribe-newsletter-input-btn .subscribe-btn button[type="submit"]:hover:before {
@@ -2191,8 +2246,8 @@ header .title {
 }
 
 #footer {
-  margin-top: 20px;
-  padding-top: 200px;
+  margin-top: 0;
+  padding-top: 100px;
   padding-bottom: 50px;
   background-image: url(https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/themes/naturio/assets/images/footer-widgets-bg.jpg);
   opacity: 1;

@@ -7,8 +7,6 @@ and open the template in the editor.
     Created on : 2019-03-23, 16:11:52
     Author     : bialka104b@interia.pl
 */
-
-
 body {
   background:white;
   margin:0;
@@ -1604,67 +1602,93 @@ header {
     background-image: url(https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/bg5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    div {
-      #carouselExampleIndicators {
-        .carousel-inner {
-          width:100%;
-          padding-top:0;
-          .carousel-item {
-            text-align: center;
-            height: 80%;
-            color: white;
-            padding-top: 15%;
-            .our-clients-h3-img {
-              height:auto;
-              @media (min-width:0px) {
-                margin-top:40%;
-              }
-              @media (min-width:468px) {
-                margin-top:35%;
-              }
-              @media (min-width:750px) {
-                margin-top:10%;
-              }
-              h3 {
-                font-family: Pacifico, cursive;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 24px;
-                line-height: 1.344;
-              }
-              img {
-                width:100px;
-                height:100px;
-                border-radius:50%;
-              }
+    @media (min-width:1300px){
+      height: auto;
+    }
+    #carouselExampleIndicators {
+      .carousel-indicators {
+        @media(min-width:1300px){
+          bottom: 100px;
+        }
+      }
+      .carousel-inner {
+        width:100%;
+        padding-top:0;
+        @media(min-width:1300px){
+          height: 700px;
+        }
+        .carousel-item {
+          text-align: center;
+          height: 80%;
+          color: white;
+          padding-top: 15%;
+          @media(min-width:1300px){
+            
+            height:100%;
+          }
+          @media(min-width:1500px){
+            height: 100%;
+            padding-top: 10%;
+          }
+          .our-clients-h3-img {
+            height:auto;
+            @media (min-width:0px) {
+              margin-top:40%;
             }
-            .carousel-description {
-              margin-top: 70px;
-              padding-left: 10%;
-              padding-right:10%;
-              @media (max-width:467px) {
-                margin-top:20px;
-              }
-              @media (max-width:769px) {
-                margin-top:40px;
-              }
+            @media (min-width:468px) {
+              margin-top:10%;
+            }
+            @media (min-width:750px) {
+              margin-top:0;
+            }
+            @media (min-width:1300px){
+              margin-top: 0;
+            }
+            h3 {
+              font-family: Pacifico, cursive;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 1.344;
+            }
+            img {
+              width:100px;
+              height:100px;
+              border-radius:50%;
+            }
+          }
+          .carousel-description {
+            margin-top: 70px;
+            padding-left: 10%;
+            padding-right:10%;
+            @media (max-width:467px) {
+              margin-top:20px;
+            }
+            @media (max-width:769px) {
+              margin-top:40px;
+            }
+            @media(min-width:1300px){
+              margin-top:30px;
             }
           }
         }
-        a {
-          span {
-            color:black;
-          }
+      }
+      a {
+        span {
+          color:black;
         }
-        #next, #prev {
-          top: 100%;
-        }
+      }
+      #next, #prev {
+        top: 20%;
       }
     }
   }
   #subscribe-newsletter {
     height:auto;
     padding-bottom:50px;
+    @media (max-width:1000px) {
+      padding-bottom: 0;
+    }
     .container {
       text-align:center;
       .subscribe-newsletter-h3 {
@@ -1680,11 +1704,10 @@ header {
         }
       }
       .subscribe-newsletter-input-btn {
-        margin:auto 0 auto -10%;
-        height:50px;
+        margin: auto 0 auto 0;
+        height: auto;
         @media (max-width:1000px) {
           text-align:left;
-          margin:auto 0;
         }
         .subscribe-input {
           display:block;
@@ -1726,6 +1749,10 @@ header {
             position:absolute; 
             text-align:center;
             border: 0;
+            margin-left: -60px;
+            @media(max-width:1000px){
+              margin-left: 0;
+            }
             &:hover {
               &:before {
                 animation: blink 2s infinite;
@@ -1754,8 +1781,8 @@ header {
   }
 }
 #footer {
-  margin-top:20px;
-  padding-top: 200px;
+  margin-top: 0; 
+    padding-top: 100px;
   padding-bottom: 50px;
   background-image: url(https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/themes/naturio/assets/images/footer-widgets-bg.jpg);
   opacity:1;
