@@ -55,7 +55,7 @@ header {
           margin: 0 5px;
           padding: 0 5px;
           list-style-type: none; }
-          header .top-header .top-headerAiB ul .top-headerB .koszyk:before {
+          header .top-header .top-headerAiB ul .top-headerB .basket:before {
             font-family: "Font Awesome 5 Free"; }
           header .top-header .top-headerAiB ul .top-headerB a {
             text-decoration: none;
@@ -107,9 +107,9 @@ header {
               letter-spacing: 0em;
               color: #4f4f4f;
               margin-bottom: 12px; }
-            header .bottom-header .bottom-headerAiB ul .inline .block .proba {
+            header .bottom-header .bottom-headerAiB ul .inline .block .menu-list {
               color: #a5a5a5; }
-              header .bottom-header .bottom-headerAiB ul .inline .block .proba:hover {
+              header .bottom-header .bottom-headerAiB ul .inline .block .menu-list:hover {
                 color: #4f4f4f; }
         header .bottom-header .bottom-headerAiB ul .nav-link #home {
           color: #86ae34;
@@ -135,7 +135,7 @@ header {
           text-transform: uppercase; }
         header .bottom-header .bottom-headerAiB ul .nav-link #menu-features, header .bottom-header .bottom-headerAiB ul .nav-link #menu-blog, header .bottom-header .bottom-headerAiB ul .nav-link #menu-shop {
           display: none; }
-          header .bottom-header .bottom-headerAiB ul .nav-link #menu-features .przezro, header .bottom-header .bottom-headerAiB ul .nav-link #menu-blog .przezro, header .bottom-header .bottom-headerAiB ul .nav-link #menu-shop .przezro {
+          header .bottom-header .bottom-headerAiB ul .nav-link #menu-features .transparency, header .bottom-header .bottom-headerAiB ul .nav-link #menu-blog .transparency, header .bottom-header .bottom-headerAiB ul .nav-link #menu-shop .transparency {
             background: blue;
             height: 20px;
             position: relativie;
@@ -149,7 +149,7 @@ header {
           background: white;
           box-shadow: 1px 1px 50px;
           padding: 0 3% 5% 3%; }
-          header .bottom-header .bottom-headerAiB ul .nav-link #menu-features .przezro {
+          header .bottom-header .bottom-headerAiB ul .nav-link #menu-features .transparency {
             width: auto;
             margin-right: -20%; }
         header .bottom-header .bottom-headerAiB ul .nav-link #menu-shop {
@@ -158,7 +158,7 @@ header {
           padding: 0 1% 5% 1%;
           margin-top: 20px;
           margin-left: -5%; }
-          header .bottom-header .bottom-headerAiB ul .nav-link #menu-shop .przezro {
+          header .bottom-header .bottom-headerAiB ul .nav-link #menu-shop .transparency {
             width: 10vw;
             margin-right: 20%; }
         header .bottom-header .bottom-headerAiB ul .nav-link #menu-blog {
@@ -167,7 +167,7 @@ header {
           background: white;
           box-shadow: 1px 1px 50px;
           padding: 0 3% 5% 3%; }
-          header .bottom-header .bottom-headerAiB ul .nav-link #menu-blog .przezro {
+          header .bottom-header .bottom-headerAiB ul .nav-link #menu-blog .transparency {
             width: auto;
             margin-left: -10%; }
         header .bottom-header .bottom-headerAiB ul .nav-link:hover #features, header .bottom-header .bottom-headerAiB ul .nav-link:hover #blog, header .bottom-header .bottom-headerAiB ul .nav-link:hover #shop, header .bottom-header .bottom-headerAiB ul .nav-link:hover #contacts, header .bottom-header .bottom-headerAiB ul .nav-link:hover #about {
@@ -661,7 +661,7 @@ header {
                           #main #our-products .card .card-body .tab-content .tab-pane .our-product-container .row .first-row-product .new-arrivals-product .product-img-description .row-product-new .product-new .product-new-description .div-icon-btn:hover {
                             visibility: visible; } }
                       #main #our-products .card .card-body .tab-content .tab-pane .our-product-container .row .first-row-product .new-arrivals-product .product-img-description .row-product-new .product-new .product-new-description .div-icon-btn .div-icon {
-                        display: inline;
+                        display: block;
                         float: left;
                         width: 45%;
                         margin-right: 5%; }
@@ -688,7 +688,7 @@ header {
                         #main #our-products .card .card-body .tab-content .tab-pane .our-product-container .row .first-row-product .new-arrivals-product .product-img-description .row-product-new .product-new .product-new-description .div-icon-btn .div-icon .div-icon-weight .weight-icon:after {
                           content: "\f0a0"; }
                       #main #our-products .card .card-body .tab-content .tab-pane .our-product-container .row .first-row-product .new-arrivals-product .product-img-description .row-product-new .product-new .product-new-description .div-icon-btn .div-btn {
-                        display: inline;
+                        display: block;
                         text-decoration: none;
                         float: left;
                         background: white;
@@ -887,7 +887,7 @@ header {
                             #main #our-products .card .card-body .tab-content .tab-pane .our-products-4 .row .first-row-product .new-arrivals-product .product-img-description .row-product-new .product-new .product-new-description .div-icon-btn:hover {
                               visibility: visible; } }
                         #main #our-products .card .card-body .tab-content .tab-pane .our-products-4 .row .first-row-product .new-arrivals-product .product-img-description .row-product-new .product-new .product-new-description .div-icon-btn .div-icon {
-                          display: inline;
+                          display: block;
                           float: left;
                           width: 45%;
                           margin-right: 5%; }
@@ -916,7 +916,7 @@ header {
                           #main #our-products .card .card-body .tab-content .tab-pane .our-products-4 .row .first-row-product .new-arrivals-product .product-img-description .row-product-new .product-new .product-new-description .div-icon-btn .div-icon .div-icon-weight .weight-icon:after {
                             content: "\f0a0"; }
                         #main #our-products .card .card-body .tab-content .tab-pane .our-products-4 .row .first-row-product .new-arrivals-product .product-img-description .row-product-new .product-new .product-new-description .div-icon-btn a.div-btn {
-                          display: inline;
+                          display: block;
                           text-decoration: none;
                           float: left;
                           background: #86ae34;
@@ -1130,9 +1130,7 @@ header {
           #main #latest-from-the-blog .container .blog-img-description123 {
             display: block; } }
         #main #latest-from-the-blog .container .blog-img-description123 .blog-img-description {
-          position: relative;
-          height: 100%;
-          display: inline; }
+          position: relative;}
           @media (min-width: 700px) {
             #main #latest-from-the-blog .container .blog-img-description123 .blog-img-description {
               width: 30%;
@@ -1297,7 +1295,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover; }
     #main #our-clients-testimonials div {
-      height: 100%; }
+      height: 80%; }
       #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner {
         height: 100%;
         width: 100%;
@@ -1305,7 +1303,8 @@ header {
         #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item {
           text-align: center;
           height: 100%;
-          color: white; }
+          color: white;
+          padding-top: 15%;}
           #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .our-clients-h3-img {
             height: auto; }
             @media (min-width: 0px) {
@@ -1330,15 +1329,15 @@ header {
               width: 100px;
               height: 100px;
               border-radius: 50%; }
-          #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .opis {
+          #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
             margin-top: 70px;
             padding-left: 10%;
             padding-right: 10%; }
             @media (max-width: 467px) {
-              #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .opis {
+              #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
                 margin-top: 20px; } }
             @media (max-width: 769px) {
-              #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .opis {
+              #main #our-clients-testimonials div #carouselExampleIndicators .carousel-inner .carousel-item .carousel-description {
                 margin-top: 40px; } }
       #main #our-clients-testimonials div #carouselExampleIndicators a span {
         color: black; }
@@ -1367,7 +1366,7 @@ header {
             text-align: left;
             margin: auto 0; } }
         #main #subscribe-newsletter .container .subscribe-newsletter-input-btn .subscribe-input {
-          display: inline;
+          display: block;
           width: 100%;
           height: 100%;
           min-height: 100px; }
@@ -1384,7 +1383,7 @@ header {
                 width: 70%; } }
         #main #subscribe-newsletter .container .subscribe-newsletter-input-btn .subscribe-btn {
           position: relative;
-          display: inline;
+          display: block;
           width: 100%;
           height: 100%;
           min-height: 100px;
