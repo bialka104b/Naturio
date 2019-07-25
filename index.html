@@ -9,30 +9,22 @@ and open the template in the editor.
     <title>NATURIO</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/cropped-FAV-300x300.png">
     <!--STYLE CSS i SASS-->
-<<<<<<< HEAD
+    <link rel="stylesheet" href="style/css/naturio.css" type="text/css">
     <link rel="stylesheet" href="style/scss/style.scss" type="text/scss"/>
-    <link rel="stylesheet" href="style/scss/style.css" type="text/css"/>
-=======
-    <!--<link rel="stylesheet" href="css/style.css" type="text/css">-->
-    <!--<link rel="stylesheet" href="style/scss/style.scss" type="text/scss"/>-->
-    <link rel="stylesheet" href="style/scss/style.css" type="text/css"/>
-    <script type="text/javascript" src="script/naturio.js"></script>
->>>>>>> 6720e2651cdcfbde5bf34af13cb5f8f9d6bf620d
+    <link rel="stylesheet" href="style/css/style.css" type="text/css"/>
     <!--FONTAWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
     <!--BOOTSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <!--CZCIONKA-->
+    <!--FONT STYLE-->
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138837033-3"></script>
@@ -44,121 +36,28 @@ and open the template in the editor.
     </script>
   </head>
   <body>
-    <div id="subscribe">
-      <div id="subscribe-close-h4-form">
-        <div class="div-close"><a href="#" class="close"><i class="far fa-window-close"></i></a></div>
-        <div class="div-h4"><h4>Newsletter</h4></div>
-        <div>
-          <form>
-            <div><input type="email" id="" name="subscribe-mail" placeholder="Your email"></div>
-            <div><input type="submit" id="sub-newsletter" value="Subscribe"></div>
-            <div class="dont-show-again">
-              <input type="checkbox" id="check2" name="checkset" value="1">
-              <label for="check2">Don't show again</label>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
     <header id="header">
-      <!--NAgłówek Górny-->
+      <!--HEADER TOP-->
       <div class="top-header">
-        <div class="top-headerAiB container top-headerA">Last sale up to <strong>20% OFF.</strong>  Use code <strong>“SALE70”.</strong></div>
+        <div class="top-headerAiB container">Last sale up to <strong>20% OFF.</strong>  Use code <strong>“SALE70”.</strong></div>
         <nav id="nav-bar" class="top-headerAiB container">
           <ul>
-            <li class="top-headerB"><a class="nav-link" href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/compare/">COMPARE</a></li>
-            <li class="top-headerB"><a class="nav-link" href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wishlist/">WISHLIST</a></li>
-            <li class="top-headerB"><a id="clicklogin" class="nav-link" href="#">LOGIN</a></li>
+            <li class="top-headerB"><a class="nav-link" href="">COMPARE</a></li>
+            <li class="top-headerB"><a class="nav-link" href="">WISHLIST</a></li>
+            <li class="top-headerB"><a class="nav-link" href="">LOGIN</a></li>
             <li class="top-headerB">
-              <a id="clickcart" class="nav-link" href="#">
-                <i class="fa fa-shopping-cart koszyk" aria-hidden="true"><span>CART:</span></i>
+              <a class="nav-link" href="">
+                <i class="fa fa-shopping-cart basket" aria-hidden="true"><span>CART:</span></i>
                 <span>0</span>
               </a>
             </li>
-            <li class="top-headerB waluta">
-              <a class="nav-link" id="usd" href="">USD $ <i class="fa fa-angle-up" aria-hidden="true"></i></a>
+            <li class="top-headerB">
+              <a class="nav-link" href="">USD $</a>
             </li>
           </ul>
         </nav>
       </div>
-      <!--POLE WYBORU WALUTA + Script-->
-      <div id="list-money">
-        <ul>
-          <li>USD, $</li>
-          <li>GBP, £</li>
-        </ul>
-      </div>
-      <!--POLE WYBORU MY CART + Script-->
-      <div id="mycart">
-        <div>
-          <h5>My Cart</h5>
-        </div>
-        <div>
-          <p>No products in the cart.</p>
-        </div>
-      </div>
-      <script>
-        $(document).ready(function(){
-          //click in money USD
-          $('#usd').on('click', function(e){
-            e.preventDefault();//wymagany w przypadku <a> aby nie ładował skrypt jako podstrone, jako zamiennik href='#', koło function musi być (e)
-            $('#list-money').slideToggle(500);
-          });
-          //click in Cart
-          $('#clickcart').on('click', function(e){
-            e.preventDefault();//wymagany w przypadku <a> aby nie ładował skrypt jako podstrone, jako zamiennik href='#', koło function musi być (e)
-            $('#mycart').slideToggle(1000);
-          });
-          //click in login
-          $('#clicklogin').on('click', function(e){
-            e.preventDefault();
-            $('#login').slideDown(500);
-          });
-          //click in close login
-          $('.close').on('click', function(e){
-            e.preventDefault();
-            $('#login').slideUp(100);
-            $('#subscribe').slideUp(100);
-          });
-          //open subscribe auto
-          $('body').on('click', function(){
-            $('#subscribe').delay(5000);
-            $('#subscribe').slideDown(500);
-            
-            //opóźnia następne wyświetlanie
-            $('.close').on('click', function(){
-              $('#subscribe').delay(900000);
-            });
-          });
-        });
-      </script>
-      <!--POLE WYBORU LOGIN FORMULARZ + Script-->
-      <div id="login">
-        <div id="login-form-h4-a">
-          <div class="div-close"><a href="#" class="close"><i class="far fa-window-close"></i></a></div>
-          <div>
-            <h4>Login</h4>
-          </div>
-          <div>
-            <form>
-              <div><input type="text" id="user_name" name="user_name" placeholder="Login"></div>
-              <div><input type="password" id="password" name="password" maxlength="20" placeholder="Password"></div>
-              <div>
-                <span>Don't have an account? Click here to</span>
-                <a href="#">Sign up</a>
-              </div>
-              <div>
-                <input type="checkbox" id="check1" name="checkset" value="1">
-                <label for="check1">Remember me</label>
-              </div>
-              <div>
-                <input type="submit" id="login-ok" value="Log in">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <!--NAGŁÓWEK DOLNY-->
+      <!--HEADER BOTTOM-->
       <div class="bottom-header container">
         <div class="bottom-headerAiB"><img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/themes/naturio/assets/images/logo.png"></div>
         <nav class="bottom-headerAiB">
@@ -172,27 +71,27 @@ and open the template in the editor.
           <ul>
             <li class="nav-link"><a href="" id="home">Home</a></li>
             <li class="nav-link"><a href="" id="about">About</a></li>
-            <li class="nav-link"><a href="" id="features">Features <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <li class="nav-link"><a href="" id="features">Features</a>
               <div id="menu-features">
-                <div class="przezro">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</div>
+                <div class="transparency">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</div>
                 <div class="inline">
                   <ul class="block">
                     <li class="title">Headers</li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;header_layout_type=style-1&amp;header_btn_visibility=1&amp;header_contact_block_visibility=1">Header Style 1</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;header_layout_type=style-2&amp;header_btn_visibility=1&amp;header_contact_block_visibility=1">Header Style 2</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;header_layout_type=style-3&amp;top_panel_visibility=0&amp;header_woo_elements=0">Header Style 3</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;header_layout_type=style-4&amp;header_btn_visibility=1&amp;header_contact_block_visibility=1">Header Style 4</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;header_layout_type=style-5&amp;header_btn_visibility=1&amp;header_contact_block_visibility=1&amp;header_menu_style=style-2&amp;header_nav_panel_position=over&amp;header_search=1">Header Style 5</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;header_layout_type=style-6">Header Style 6</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;header_layout_type=style-7&amp;header_woo_elements=1&amp;top_panel_visibility=0">Header Style 7</a></li>
+                    <li class="menu-list">Header Style 1</li>
+                    <li class="menu-list">Header Style 2</li>
+                    <li class="menu-list">Header Style 3</li>
+                    <li class="menu-list">Header Style 4</li>
+                    <li class="menu-list">Header Style 5</li>
+                    <li class="menu-list">Header Style 6</li>
+                    <li class="menu-list">Header Style 7</li>
                   </ul>
                 </div>
                 <div class="inline">
                   <ul class="block">
                     <li class="title">Footers</li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;footer_layout_type=style-1&amp;footer_copyright=%C2%A9%202017%20Naturio.%20All%20Rights%20Reserved">Footer Style 1</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&footer_layout_type=style-2&footer_widget_area_visibility=0&footer_menu_visibility=1&footer_logo_visibility=1">Footer Style 2</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?ld&amp;footer_layout_type=style-3&amp;footer_widget_area_visibility=0&amp;footer_logo_visibility=0&amp;footer_contact_block_visibility=0&amp;footer_social_links=1&amp;footer_copyright=%C2%A9%202017%20Naturio.%20All%20Rights%20Reserved">Footer Style 3</a></li>
+                    <li class="menu-list">Footer Style 1</li>
+                    <li class="menu-list">Footer Style 2</li>
+                    <li class="menu-list">Footer Style 3</li>
                     <li><br></li>
                     <li><br></li>
                     <li><br></li>
@@ -202,22 +101,22 @@ and open the template in the editor.
                 <div class="inline">
                   <ul class="block">
                     <li class="title">Pages</li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/maintenance/">Maintenance</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/?s">Search Results</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/typography/">Typography</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/faq/">FAQ</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/404">Page Not Found</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="http://documentation.jetimpex.com/wordpress/projects/naturio/index.html">Documentation</a></li>
+                    <li class="menu-list">Maintenance</li>
+                    <li class="menu-list">Search Results</li>
+                    <li class="menu-list">Typography</li>
+                    <li class="menu-list">FAQ</li>
+                    <li class="menu-list">Page Not Found</li>
+                    <li class="menu-list">Documentation</li>
                     <li><br></li>
                  </ul>
                 </div>
                 <div class="inline">
                   <ul class="block">
                     <li class="title">Pages</li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/about-2/">About</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/contacts-2/">Contacts</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/our-team/">Our Team</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/team/jane-green/">Team Member</a></li>
+                    <li class="menu-list">About</li>
+                    <li class="menu-list">Contacts</li>
+                    <li class="menu-list">Our Team</li>
+                    <li class="menu-list">Team Member</li>
                     <li><br></li>
                     <li><br></li>
                     <li><br></li>
@@ -225,26 +124,26 @@ and open the template in the editor.
                 </div>
               </div>
             </li>
-            <li class="nav-link"><a href="#" id="blog">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <li class="nav-link"><a href="#" id="blog">Blog</a>
               <div id="menu-blog">
-                <div class="przezro">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</div>  
+                <div class="transparency">bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</div>  
                 <div class="inline">
                   <ul class="block">
                     <li class="title">Blog Layauts</li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/blog/?ld&amp;blog_layout_type=default&amp;posts_per_page=5">Classic</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/blog/?ld&amp;blog_layout_type=default-modern&amp;posts_per_page=4&amp;blog_post_share_buttons=0&amp;blog_read_more_btn=1">Modern Listing</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/blog/?ld&amp;blog_layout_type=grid&amp;blog_layout_columns=2-cols&amp;sidebar_position=fullwidth&amp;blog_read_more_btn=1">Grid</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/blog/?ld&amp;blog_layout_type=masonry&amp;blog_layout_columns=2-cols&amp;posts_per_page=6&amp;sidebar_position=fullwidth&amp;blog_post_share_buttons=0">Masonry</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/blog/?ld&amp;blog_layout_type=vertical-justify&amp;blog_posts_content=none&amp;posts_per_page=7&amp;sidebar_position=fullwidth&amp;blog_post_share_buttons=0">Justify</a></li>
+                    <li class="menu-list">Classic</li>
+                    <li class="menu-list">Modern Listing</li>
+                    <li class="menu-list">Grid</li>
+                    <li class="menu-list">Masonry</li>
+                    <li class="menu-list">Justify</li>
                     <li><br></li>
                   </ul>
                 </div>
                 <div class="inline">
                   <ul class="block">
                     <li class="title">Sidebar</li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/blog/?ld&amp;blog_layout_type=default-modern&amp;posts_per_page=4&amp;blog_post_share_buttons=0&amp;blog_read_more_btn=1&amp;sidebar_position=one-left-sidebar">Left Sidebar</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/blog/?ld&amp;posts_per_page=8&amp;sidebar_position=one-right-sidebar">Right Sidebar</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/blog/?ld&amp;blog_layout_type=grid&amp;blog_layout_columns=2-cols&amp;sidebar_position=fullwidth&amp;blog_read_more_btn=1">No Sidebar</a></li>
+                    <li class="menu-list">Left Sidebar</li>
+                    <li class="menu-list">Right Sidebar</li>
+                    <li class="menu-list">No Sidebar</li>
                     <li><br></li>
                     <li><br></li>
                     <li><br></li>
@@ -253,28 +152,28 @@ and open the template in the editor.
                 <div class="inline">
                   <ul class="block">
                     <li class="title">Post Formats</li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/2017/10/23/aside-format/">Aside Format</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/2017/10/23/image-format/">Image Format</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/2017/10/23/gallery-format/">Gallery Format</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/2017/10/23/audio-format/">Audio Format</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/2017/10/23/quote-format/">Quote Format</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/2017/10/23/link-format/">Link Format</a></li>
+                    <li class="menu-list">Aside Format</li>
+                    <li class="menu-list">Image Format</li>
+                    <li class="menu-list">Gallery Format</li>
+                    <li class="menu-list">Audio Format</li>
+                    <li class="menu-list">Quote Format</li>
+                    <li class="menu-list">Link Format</li>
                   </ul> 
                 </div>
               </div>
             </li>
-            <li class="nav-link"><a href="" id="shop">Shop <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            <li class="nav-link"><a href="" id="shop">Shop</a>
               <div id="menu-shop">
-                <div class="przezro"></div>
+                <div class="transparency"></div>
                 <div class="inline">
                   <ul class="block">
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/shop/?glCondition=list">Product Listing</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/shop/?glCondition=grid">Product Grid</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/great-value-organic-unsweetened-applesauce/">Single Product</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/checkout/">Checkout</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/compare/">Compare</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/my-account/">My Account</a></li>
-                    <li class="proba"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wishlist/">Wishlist</a></li>
+                    <li class="menu-list">Product Listing</li>
+                    <li class="menu-list">Product Grid</li>
+                    <li class="menu-list">Single Product</li>
+                    <li class="menu-list">Checkout</li>
+                    <li class="menu-list">Compare</li>
+                    <li class="menu-list">My Account</li>
+                    <li class="menu-list">Wishlist</li>
                   </ul>
                 </div>
               </div>
@@ -294,7 +193,7 @@ and open the template in the editor.
               <h3>Always Fresh, Crispy and Full of Vitamins</h3>
             </div>
             <div class="add-to">
-              <div class="add-to-card"><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/shop/">Add to Card</a></div>
+              <div class="add-to-card"><a href="https://www.templatemonster.com/pl/demo/66344.html">Add to Card</a></div>
             </div>
           </div>
         </div>
@@ -302,11 +201,11 @@ and open the template in the editor.
       <!--WELCOME-->
       <section id="welcome">
         <div class="container welcome-div">
-          <div class="row welcome-h2">
+          <div class="col col-sm-12 welcome-h2">
             <h2>Welcome to our healthy farm!</h2>
           </div>
-          <div class="row welcome-description">
-            <div class="col-12 col-md-4 welcome-1-2-3">
+          <div class="row col col-sm-12 welcome-description">
+            <div class="col-sm-4 welcome-1-2-3">
               <div class="welcome-img">
                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/1.png" class="img-relative">
               </div>
@@ -315,7 +214,7 @@ and open the template in the editor.
                 <p>We stand for providing the most fresh organic products which will serve your health and be a source of vitamins and minerals for our clients.</p>
               </div>
             </div>
-            <div class="col-12 col-md-4 welcome-1-2-3">
+            <div class="col-sm-4 welcome-1-2-3">
               <div class="welcome-img">
                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/2-1.png" class="img-relative">
               </div>
@@ -324,7 +223,7 @@ and open the template in the editor.
                 <p>We work with many farms to provide you with natural products grown with love and care with no GMO or pesticides.</p>
               </div>
             </div>
-            <div class="col-12 col-md-4 welcome-1-2-3">
+            <div class="col-sm-4 welcome-1-2-3">
               <div class="welcome-img">
                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/3.png" class="img-relative">
               </div>
@@ -339,12 +238,12 @@ and open the template in the editor.
       <!--PRODUCT ESENTIALS-->
       <section id="products-esentials">
         <div class="container">
-          <div class="row products-esentials">
-            <div class="col-12 col-md-6 farmerproducts-img">
+          <div class="row col col-sm-12 products-esentials">
+            <div class="col-sm-6 farmerproducts-img">
               <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/banners1.jpg" class="img-responsive">
               <div class="esentials-img-hover"><a href="#"></a></div>
             </div>
-            <div class="col-12 col-md-6 esentials-img">
+            <div class="col-sm-6 esentials-img">
               <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/banners.jpg" class="img-responsive">
               <div class="esentials-img-hover"><a href="#"></a></div>
             </div>
@@ -353,12 +252,12 @@ and open the template in the editor.
       </section>   
       <!-- OUR PRODUCT--> 
       <section id="our-products">
-        <!-- NAGŁÓWEK H#-->
+        <!-- HEADER H#-->
         <div class="row col col-md-12 our-products-h3">
           <h3>Our Products</h3>
         </div>
         <div class="card text-center">
-          <!--NAWIGACJA ZAKŁADEK-->
+          <!--NAVIGATION OF BOOKMARKS-->
           <div class="card-header container">
             <div class="row">
               <ul class="col-md-12 nav nav-tabs card-header-tabs arr-org-farm-plum" id="myTab" role="tablist">
@@ -377,15 +276,15 @@ and open the template in the editor.
               </ul>
             </div>
           </div>
-          <!--TRESC KART-->
+          <!--CONTENT OF CARDS-->
           <div class="card-body">
             <div class="tab-content" id="myTabContent">
-              <!--ZAKLADKA ARRIVALS-->
+              <!--OVERLAP ARRIVALS-->
               <div class="tab-pane show active" id="newarrivals" role="tabpanel" aria-labelledby="newarrivals-tab">
                 <div class="container our-product-container">
-                  <!--zdefiniowanie rzędu-->
+                  <!--define the row-->
                   <div class="row">
-                    <!--PIERWSZY RZĄD PRODUKTÓW-->
+                    <!--FIRST ROW PRODUCTS-->
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 first-row-product">
                       <div class="row new-arrivals-product">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3 product-img-description">
@@ -398,11 +297,11 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-beetroot/">Organic Beetroot</a></h3>
+                                  <h3>Organic Beetroot</h3>
                                   <span>2.56$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -429,12 +328,12 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals,</a></li>
+                                    <li><a>Baking</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-cauliflower-250g/">Organic Cauliflower</a></h3>
+                                  <h3>Organic Cauliflower</h3>
                                   <span>7.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -444,7 +343,7 @@ and open the template in the editor.
                                     <div class="div-icon-weight"><a href="#" class="weight-icon"></a></div>
                                   </div>
                                   <a href="#" class="div-btn">
-                                    <span>Add to Cart</span> 
+                                    <span>Add to Cart</span>
                                   </a>
                                 </div>
                               </div>
@@ -460,11 +359,11 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-fennel/">Organic Feenel</a></h3>
+                                  <h3>Organic Feenel</h3>
                                   <span>4.81$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -490,10 +389,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-jap-pumpkin-1kg/">Organic Jup Pumpkin 1kg</a></h3>
+                                  <h3>Organic Jup Pumpkin 1kg</h3>
                                   <span>9.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -512,7 +411,7 @@ and open the template in the editor.
                         </div>
                       </div>
                     </div>
-                    <!--DRUGI RZĄD PRODUKTÓW-->
+                    <!--SECOND ROW PRODUCTS-->
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 first-row-product">
                       <div class="row new-arrivals-product">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3 product-img-description">
@@ -524,11 +423,11 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals,</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-kiwi-fruit-500g/">Organic Kiwi Fruit, 500g</a></h3>
+                                  <h3>Organic Kiwi Fruit, 500g</h3>
                                   <span>6.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -554,12 +453,12 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Baking</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-mushrooms-250g/">Organic Mushrooms, 250g</a></h3>
+                                  <h3>Organic Mushrooms, 250g</h3>
                                   <span>3.13$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -585,12 +484,12 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-parsley/">Organic Parsley</a></h3>
+                                  <h3>Organic Parsley</h3>
                                   <span>2.25$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -617,11 +516,11 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-sebago-potatoes/">Organic Sebago Potatoes</a></h3> 
+                                  <h3>Organic Sebago Potatoes</h3>
                                   <span>2.50$ – 7.50$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -643,12 +542,12 @@ and open the template in the editor.
                   </div>
                 </div>
               </div>
-              <!--ZAKLADKA ORGANIC-->
+              <!--OVERLAP ORGANIC-->
               <div class="tab-pane" id="organic" role="tabpanel" aria-labelledby="organic-tab">
                 <div class="container our-product-container">
-                  <!--zdefiniowanie rzędu-->
+                  <!--define the row-->
                   <div class="row">
-                    <!--PIERWSZY RZĄD PRODUKTÓW-->   
+                    <!--FIRST ROW PRODUCTS-->   
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 first-row-product">
                       <div class="row new-arrivals-product">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3 product-img-description">
@@ -660,10 +559,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/bobs-red-mill-whole-wheat-flour-5-lb-pack-of-4/">Bob’s Red Mill</a></h3>
+                                  <h3>Bob’s Red Mill</h3>
                                   <span>32.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -689,10 +588,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit,</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/cascadian-farm-organic-cinnamon-crunch/">Cascadian Farm Organic Cinnamon Crunch</a></h3>
+                                  <h3>Cascadian Farm Organic Cinnamon Crunch</h3>
                                   <span>20.00$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -718,10 +617,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/great-value-organic-whole-kernel-corn/">Great Value Organic Whole Kernel Corn</a></h3>
+                                  <h3>Great Value Organic Whole Kernel Corn</h3>
                                   <span>7.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -748,11 +647,11 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-beetroot/">Organic Beetroot</a></h3>
+                                  <h3>Organic Beetroot</h3>
                                   <span>2.56$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -771,7 +670,7 @@ and open the template in the editor.
                         </div>
                       </div>
                     </div>
-                    <!--DRUGI RZĄD PRODUKTÓW-->
+                    <!--SECOND ROW PRODUCTS-->
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 first-row-product">
                       <div class="row new-arrivals-product">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-3 product-img-description">
@@ -783,11 +682,11 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-fennel/">Organic Feenel</a></h3>
+                                  <h3>Organic Fennel</h3>
                                   <span>4.81$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -813,10 +712,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable</a></li>
+                                    <li><a>Organic</a></li>
+                                    <li><a>Vegetable,</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-jap-pumpkin-1kg/">Organic Jup Pumpkin 1kg</a></h3>
+                                  <h3>Organic Jap Pumpkin 1kg</h3>
                                   <span>9.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -842,11 +741,11 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-leek-bunch/" class="woocommerce-LoopProduct-link">Organic Leek bunch</a></h3>
+                                  <h3>Organic Leek bunch</h3>
                                   <span>4.56$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -872,12 +771,12 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
+                                    <li><a>Baking</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-mushrooms-250g/">Organic Mushrooms, 250g</a></h3>
+                                  <h3>Organic Mushrooms, 250g</h3>
                                   <span>3.13$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -899,15 +798,15 @@ and open the template in the editor.
                  </div>
                </div>
              </div>
-              <!--ZAKLADKA FARM STORY-->
+              <!--OVERLAP FARM STORY-->
               <div class="tab-pane" id="farmstory" role="tabpanel" aria-labelledby="farmstory-tab">
                 <div class="container our-product-container">
-                  <!--zdefiniowanie rzędu-->
+                  <!--define the row-->
                   <div class="row">
-                    <!--PIERWSZY RZĄD PRODUKTÓW-->
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 first-row-product">
+                    <!--FIRST ROW PRODUCTS-->
+                    <div class="col-12 col-md-12 col-lg-12 first-row-product">
                       <div class="row new-arrivals-product">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
                           <div class="row row-product-new">
                             <div class="col-12 col-md-12 product-new">
                               <div class="row product-new-img">
@@ -917,10 +816,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/crisco-organic-refined-coconut-oil/">Crisco Organic Refined Coconut Oil</a></h3>
+                                  <h3>Crisco Organic Refined Coconut Oil</h3>
                                   <span>28.75$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -947,10 +846,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/great-value-organic-unsweetened-applesauce/">Great Value Organic Unsweetened Applesauce</a></h3>
+                                  <h3>Great Value Organic Unsweetened Applesauce</h3>
                                   <span>7.50$ - 35.00$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -976,10 +875,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li> 
+                                    <li><a>Packaged Meals,</a></li>
+                                    <li><a>Baking</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/happy-baby-organics-strawberry-beet-superfood-puffs/">Happy Baby Organics Strawberry &amp; Beet Superfood Puffs</a></h3>
+                                  <h3>Happy Baby Organics Strawberry & Beet Superfood Puffs</h3>
                                   <span>10.00$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -1005,10 +904,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/orgain-organic-protein-almondmilk-unsweetened-vanilla/">Orgain Organic Protein Almondmilk Unsweetened Vanilla</a></h3>
+                                  <h3>Orgain Organic Protein Almondmilk Unsweetened Vanilla</h3>
                                   <span>45.63$</span> 
                                 </div>
                                 <div class="div-icon-btn">
@@ -1027,7 +926,7 @@ and open the template in the editor.
                         </div>
                       </div>
                     </div>
-                    <!--DRUGI RZĄD PRODUKTÓW-->
+                    <!--SECOND RW PRODUCTS-->
                     <div class="col-12 col-md-12 col-lg-12 first-row-product">
                       <div class="row new-arrivals-product">
                         <div class="col-12 col-md-6 col-lg-3 product-img-description">
@@ -1040,12 +939,12 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
+                                    <li><a>Baking</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-cauliflower-250g/">Organic Cauliflower</a></h3>
+                                  <h3>Organic Cauliflower</h3>
                                   <span>7.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -1071,11 +970,11 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals,</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-kiwi-fruit-500g/">Organic Kiwi Fruit, 500g</a></h3>
+                                  <h3>Organic Kiwi Fruit 500g</h3>
                                   <span>6.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -1101,12 +1000,12 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-parsley/">Organic Parsley</a></h3>
+                                  <h3>Organic Parsley</h3>
                                   <span>2.25$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -1133,8 +1032,8 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
                                   <h3>Plum Organics Blueberry Blitz! Organic Apple Sauce & Fruit & Veggie Mashups</h3>
                                   <span>4.38$ - 12.00$</span>
@@ -1158,27 +1057,27 @@ and open the template in the editor.
                   </div>
                 </div>
               </div>
-              <!--ZAKLADKA PLUMCAKE-->
+              <!--OVERLAP PLUMCAKE-->
               <div class="tab-pane" id="plumcake" role="tabpanel" aria-labelledby="plumcake-tab">
                 <div class="container our-product-container">
-                  <!--zdefiniowanie rzędu-->
+                  <!--define the row-->
                   <div class="row">
-                    <!--PIERWSZY RZĄD PRODUKTÓW-->
-                    <div class="col-12 col-md-12 col-lg-12 first-row-product">
+                    <!--FIRST ROW PRODUCTS-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 first-row-product">
                       <div class="row new-arrivals-product">
-                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 product-img-description">
                           <div class="row row-product-new">
-                            <div class="col-12 col-md-12 product-new">
+                            <div class="col-12 col-sm-12 col-md-12  product-new">
                               <div class="row product-new-img">
                                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/Bobs-Red-Mill-Whole-Wheat-Flour-5-lb-Pack-of-4_1-300x300.png" class="img-responsive img-thumbnail">
                               </div>
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/bobs-red-mill-whole-wheat-flour-5-lb-pack-of-4/">Bob’s Red Mill</a></h3>
+                                  <h3>Bob’s Red Mill</h3>
                                   <span>32.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -1195,19 +1094,19 @@ and open the template in the editor.
                             </div>
                           </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 product-img-description">
                           <div class="row row-product-new">
-                            <div class="col-12 col-md-12 product-new">
+                            <div class="col-12 col-sm-12 col-md-12 product-new">
                               <div class="row product-new-img">
                                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/Cascadian-Farm-Organic-Cinnamon-Crunch-9-300x300.png" class="img-responsive img-thumbnail">
                               </div>
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                    <li><a>Vegetable,</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/cascadian-farm-organic-cinnamon-crunch/">Cascadian Farm Organic Cinnamon Crunch</a></h3>
+                                  <h3>Cascadian Farm Organic Cinnamon Crunch</h3>
                                   <span>20.00$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -1224,19 +1123,19 @@ and open the template in the editor.
                             </div>
                           </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 product-img-description">
                           <div class="row row-product-new">
-                            <div class="col-12 col-md-12 product-new">
+                            <div class="col-12 col-sm-12 col-md-12 col-sm-12 product-new">
                               <div class="row product-new-img">
                                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/Crisco-Organic-Refined-Coconut-Oil-27_1-300x300.png" class="img-responsive img-thumbnail">
                               </div>
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/crisco-organic-refined-coconut-oil/">Crisco Organic Refined Coconut Oil</a></h3>
+                                  <h3>Crisco Organic Refined Coconut Oil</h3>
                                   <span>28.75$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -1253,9 +1152,9 @@ and open the template in the editor.
                             </div>
                           </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 product-img-description">
                           <div class="row row-product-new">
-                            <div class="col-12 col-md-12 product-new">
+                            <div class="col-12 col-sm-12 col-md-12 col-sm-12 product-new">
                               <div class="row product-new-img">
                                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/Great-Value-Organic-Unsweetened-Applesauce-23-oz_1_2-300x300.png" class="img-responsive img-thumbnail">
                                 <span class="featured"><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/great-value-organic-unsweetened-applesauce/">Featured</a></span>
@@ -1263,10 +1162,10 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/great-value-organic-unsweetened-applesauce/">Great Value Organic Unsweetened Applesauce</a></h3>
+                                  <h3>Great Value Organic Unsweetened Applesauce</h3>
                                   <span>7.50$ - 35.00$</span> 
                                 </div>
                                 <div class="div-icon-btn">
@@ -1285,22 +1184,22 @@ and open the template in the editor.
                         </div>
                       </div>
                     </div>
-                    <!--DRUGI RZĄD PRODUKTÓW-->
-                    <div class="col-12 col-md-12 col-lg-12 first-row-product">
+                    <!--SECOND ROW PRODUCTS-->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 first-row-product">
                       <div class="row new-arrivals-product">
-                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 product-img-description">
                           <div class="row row-product-new">
-                            <div class="col-12 col-md-12 product-new">
+                            <div class="col-12 col-sm-12 col-md-12 col-sm-12 product-new">
                               <div class="row product-new-img">
                                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/Great-Value-Organic-Whole-Kernel-Corn-15-300x300.png" class="img-responsive img-thumbnail">
                               </div>
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
+                                    <li><a>Vegetable</a></li>
+                                    <li><a>Fruit</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/great-value-organic-whole-kernel-corn/">Great Value Organic Whole Kernel Corn</a></h3>
+                                  <h3>Great Value Organic Whole Kernel Corn</h3>
                                   <span>7.88$</span>
                                 </div>
                                 <div class="div-icon-btn">
@@ -1317,19 +1216,19 @@ and open the template in the editor.
                             </div>
                           </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 product-img-description">
                           <div class="row row-product-new">
-                            <div class="col-12 col-md-12 product-new">
+                            <div class="col-12 col-sm-12 col-md-12 product-new">
                               <div class="row product-new-img">
                                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/Orgain-Organic-Protein-Almondmilk-Unsweetened-Vanilla-32_1-300x300.png" class="img-responsive img-thumbnail">
                               </div>
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals</a></li> 
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/orgain-organic-protein-almondmilk-unsweetened-vanilla/">Orgain Organic Protein Almondmilk Unsweetened Vanilla</a></h3>
+                                  <h3>Orgain Organic Protein Almondmilk Unsweetened Vanilla</h3>
                                   <span>45.63$</span> 
                                 </div>
                                 <div class="div-icon-btn">
@@ -1346,9 +1245,9 @@ and open the template in the editor.
                             </div>
                           </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 product-img-description">
                         <div class="row row-product-new">
-                          <div class="col-12 col-md-12 product-new">
+                          <div class="col-12 col-sm-12 col-md-12 product-new">
                             <div class="row product-new-img">
                               <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/Organic-Beetroot-1kg-300x300.png" class="img-responsive img-thumbnail">
                               <span class="onsale"><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-beetroot/">Sale!</a></span>
@@ -1356,11 +1255,11 @@ and open the template in the editor.
                             <div class="row product-new-description">
                               <div class="div-ul-h3-span">
                                 <ul>
-                                  <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                  <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                                  <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                                  <li><a>Organic,</a></li>
+                                  <li><a>Vegetable,</a></li>
+                                  <li><a>Fruit,</a></li>
                                 </ul>
-                                <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-beetroot/">Organic Beetroot</a></h3>
+                                <h3>Organic Beetroot</h3>
                                 <span>2.56$</span>
                                   </div>
                                   <div class="div-icon-btn">
@@ -1377,9 +1276,9 @@ and open the template in the editor.
                               </div>
                             </div>
                           </div>
-                        <div class="col-12 col-md-6 col-lg-3 product-img-description">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-3 product-img-description">
                           <div class="row row-product-new">
-                            <div class="col-12 col-md-12 product-new">
+                            <div class="col-12 col-sm-12 col-md-12 product-new">
                               <div class="row product-new-img">
                                 <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/Organic-Cauliflower-300x300.png" class="img-responsive img-thumbnail">
                                 <span class="featured"><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-cauliflower-250g/">Featured</a></span>
@@ -1387,12 +1286,12 @@ and open the template in the editor.
                               <div class="row product-new-description">
                                 <div class="div-ul-h3-span">
                                   <ul>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals,</a></li>
-                                    <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li>
+                                    <li><a>Organic,</a></li>
+                                    <li><a>Fruit,</a></li>
+                                    <li><a>Packaged Meals,</a></li>
+                                    <li><a>Baking</a></li>
                                   </ul>
-                                  <h3><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-cauliflower-250g/">Organic Cauliflower</a></h3>
+                                  <h3>Organic Cauliflower</h3>
                                   <span>7.88$</span>  
                                 </div>
                                 <div class="div-icon-btn">
@@ -1427,7 +1326,7 @@ and open the template in the editor.
               <h3>Fresh and Delicious All Year Round!</h3>
             </div>
             <div class="shop">
-              <div class="shop-now"><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/shop/?filter_brand=orgain">Shop Now!</a></div>
+              <div class="shop-now"><a href="https://www.templatemonster.com/pl/demo/66344.html">Shop Now!</a></div>
             </div>
           </div>
         </div>
@@ -1469,7 +1368,7 @@ and open the template in the editor.
                   <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/post7-360x270.jpg" class="img-responsive">
                 </div>
                 <div class="row blog-description">
-                  <div class="blog-description-btn"><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/category/your-health/">YOUR HEALTH</a></div>
+                  <div class="blog-description-btn"><a href="#">YOUR HEALTH</a></div>
                   <h5 class="h5"><a href="#">Health Benefits of a Raw Food</a></h5>
                   <div class="blog-description-span">
                     <span><a href="#">October 23, 2017</a></span>
@@ -1483,7 +1382,7 @@ and open the template in the editor.
                   <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/post4-360x270.jpg" class="img-responsive">
                 </div>
                 <div class="row blog-description">
-                  <div class="blog-description-btn"><a href="https:/ld-wp.template-help.com/woocommerce_prod-11619_v1/category/your-health/">YOUR HEALTH</a></div>
+                  <div class="blog-description-btn"><a href="#">YOUR HEALTH</a></div>
                   <h5 class="h5"><a href="#">The Anytime Snack Pack for Everyone</a></h5>
                   <div class="blog-description-span">
                     <span><a href="#">October 23, 2017</a></span>
@@ -1497,7 +1396,7 @@ and open the template in the editor.
                   <img src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/10/post2-360x270.jpg" class="img-responsive">
                 </div>
                 <div class="row blog-description">
-                  <div class="blog-description-btn"><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/category/your-health/">YOUR HEALTH</a></div>
+                  <div class="blog-description-btn"><a href="#">YOUR HEALTH</a></div>
                     <h5 class="h5"><a href="#">6 After-School Snacks the Kiddos Will Love</a></h5>
                   <div class="blog-description-span">
                     <span><a href="#">October 23, 2017</a></span>
@@ -1525,11 +1424,11 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                      <li><a>Organic,</a></li>
+                      <li><a>Vegetable,</a></li>
+                      <li><a>Fruit</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-beetroot/">Organic Beetroot</a></h6>
+                    <h6>Organic Beetroot</h6>
                     <span>2.56$</span>
                   </div>
                 </div>
@@ -1543,12 +1442,12 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li>
+                      <li><a>Organic,</a></li>
+                      <li><a>Fruit,</a></li>
+                      <li><a>Packaged Meals,</a></li>
+                      <li><a>Baking</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-cauliflower-250g/">Organic Cauliflower</a></h6>
+                    <h6>Organic Cauliflower</h6>
                     <span>7.88$</span>
                   </div>
                 </div>
@@ -1562,10 +1461,10 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                      <li><a>Vegetable,</a></li>
+                      <li><a>Fruit</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/bobs-red-mill-whole-wheat-flour-5-lb-pack-of-4/">Bob’s Red Mill</a></h6>
+                    <h6>Bob’s Red Mill</h6>
                     <span>32.88$</span>
                   </div>
                 </div>
@@ -1582,11 +1481,11 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                      <li><a>Organic,</a></li>
+                      <li><a>Vegetable,</a></li>
+                      <li><a>Fruit</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-beetroot/">Organic Beetroot</a></h6>
+                    <h6>Organic Beetroot</h6>
                     <span>2.56$</span>
                   </div>
                 </div>
@@ -1600,12 +1499,12 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li>
+                      <li><a>Organic,</a></li>
+                      <li><a>Fruit,</a></li>
+                      <li><a>Packaged Meals,</a></li>
+                      <li><a>Baking</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-cauliflower-250g/">Organic Cauliflower</a></h6>
+                    <h6>Organic Cauliflower</h6>
                     <span>7.88$</span>
                   </div>
                 </div>
@@ -1619,10 +1518,10 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                      <li><a>Vegetable,</a></li>
+                      <li><a>Fruit</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/bobs-red-mill-whole-wheat-flour-5-lb-pack-of-4/">Bob’s Red Mill</a></h6>
+                    <h6>Bob’s Red Mill</h6>
                     <span>32.88$</span>
                   </div>
                 </div>
@@ -1639,12 +1538,15 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                      <li><a>Organic,</a></li>
+                      <li><a>Vegetable,</a></li>
+                      <li><a>Fruit</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-beetroot/">Organic Beetroot</a></h6>
+                    <h6>Organic Beetroot</h6>
                     <span>2.56$</span>
+                    <div>
+                      <div></div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1657,12 +1559,12 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/organic/">Organic,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/packaged-meals/">Packaged Meals,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/baking/">Baking</a></li>
+                      <li><a>Organic,</a></li>
+                      <li><a>Fruit,</a></li>
+                      <li><a>Packaged Meals,</a></li>
+                      <li><a>Baking</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/organic-cauliflower-250g/">Organic Cauliflower</a></h6>
+                    <h6>Organic Cauliflower</h6>
                     <span>7.88$</span>
                   </div>
                 </div>
@@ -1676,10 +1578,10 @@ and open the template in the editor.
                 <div class="cereal-new">
                   <div class="product-new-description">
                     <ul>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/vegetable/">Vegetable,</a></li>
-                      <li><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product-category/fruit/">Fruit</a></li>
+                      <li><a>Vegetable,</a></li>
+                      <li><a>Fruit</a></li>
                     </ul>
-                    <h6><a href="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/product/bobs-red-mill-whole-wheat-flour-5-lb-pack-of-4/">Bob’s Red Mill</a></h6>
+                    <h6>Bob’s Red Mill</h6>
                     <span>32.88$</span>
                   </div>
                 </div>
@@ -1687,60 +1589,58 @@ and open the template in the editor.
             </div>
           </div>
         </div>
-      </section>
+    </section>
       <!--our-clients-testimonials galeria-->
       <section id="our-clients-testimonials">
-        <div>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="our-clients-h3-img">
-                  <h3>Our Clients Testimonials</h3>
-                  <img class="img-thumbnail" src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/09/testi.jpg" alt="First slide">
-                </div>
-                <div class="opis">
-                  <h5>Amanda Appleboum</h5>
-                  <p>Thank you, Naturio, for remarkable discount you provided me! I became a regular buyer because my family and relatives now adore your products. We also shipped it to our overseas friends as such products are hard to find elsewhere!</p>
-                  <span>Customer</span>
-                </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="our-clients-h3-img">
+                <h3>Our Clients Testimonials</h3>
+                <img class="img-thumbnail" src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/09/testi.jpg" alt="First slide">
               </div>
-              <div class="carousel-item">
-                <div class="our-clients-h3-img">
-                  <h3>Our Clients Testimonials</h3>
-                  <img class="img-thumbnail" src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/09/testi1.jpg" alt="Second slide">
-                </div>
-                <div class="opis">
-                  <h5>Alice Show</h5>
-                  <p>It was my first time to buy healthy food online and I can say I will order it again and again! Now I pay more attention to my health and have a lot of organic products. Thank you, guys, for your attention to details and customers!</p>
-                  <span>Customer</span>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="our-clients-h3-img">
-                  <h3>Our Clients Testimonials</h3>
-                  <img class="img-thumbnail" src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/09/testi.png" alt="Third slide">
-                </div>
-                <div class="opis">
-                  <h5>Tim Diaz</h5>
-                  <p>I’d like to admit that the quality of clothes is really good. I ordered different items from different manufacturers, and they are all high-class!</p>
-                  <span>Customer</span>
-                </div>
+              <div class="carousel-description">
+                <h5>Amanda Appleboum</h5>
+                <p>Thank you, Naturio, for remarkable discount you provided me! I became a regular buyer because my family and relatives now adore your products. We also shipped it to our overseas friends as such products are hard to find elsewhere!</p>
+                <span>Customer</span>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" class="vievcontrol">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" class="vievcontrol">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+              <div class="our-clients-h3-img">
+                <h3>Our Clients Testimonials</h3>
+                <img class="img-thumbnail" src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/09/testi1.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-description">
+                <h5>Alice Show</h5>
+                <p>It was my first time to buy healthy food online and I can say I will order it again and again! Now I pay more attention to my health and have a lot of organic products. Thank you, guys, for your attention to details and customers!</p>
+                <span>Customer</span>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="our-clients-h3-img">
+                <h3>Our Clients Testimonials</h3>
+                <img class="img-thumbnail" src="https://ld-wp.template-help.com/woocommerce_prod-11619_v1/wp-content/uploads/2017/09/testi.png" alt="Third slide">
+              </div>
+              <div class="carousel-description">
+                <h5>Tim Diaz</h5>
+                <p>I’d like to admit that the quality of clothes is really good. I ordered different items from different manufacturers, and they are all high-class!</p>
+                <span>Customer</span>
+              </div>
+            </div>
           </div>
+          <a class="carousel-control-prev" id="prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" id="next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </section>
       <!--Subscribe Newsletter-->
@@ -1829,6 +1729,7 @@ and open the template in the editor.
         </div>
       </div>
     </footer>
-    <div id="arrow"><a href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+    <div id="arrow"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+      
   </body>
 </html>
